@@ -1,0 +1,71 @@
+
+body{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: black;
+    color:white;
+    width:100%;
+     overflow-x: scroll;
+    
+}
+
+.container table{
+    width:100%;
+   
+    margin: 0 20px;
+}
+
+.container::-webkit-scrollbar {
+    display: none;
+}
+
+.table tbody tr{
+   display: flex;
+    border-bottom: 1px solid white;
+    padding: 15px 0;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    gap:15px;
+    justify-content: space-between;
+    color:#ffff;
+}
+
+.coinsImg, td{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.coinsImg img{
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+   
+}
+
+.table tbody tr td:nth-child(1){
+    width: 20%;
+}
+.table tbody tr td:nth-child(2){
+    width: 10%; 
+}
+.table tbody tr td:nth-child(3){
+    width: 10%;
+}
+.table tbody tr td:nth-child(4){
+    width: 20%;
+}
+.table tbody tr td:nth-child(5){
+    width: 10%;
+}
+.table tbody tr td:nth-child(6){
+    width: 20%;
+}
+
+
+
+
+
